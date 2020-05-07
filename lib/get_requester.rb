@@ -3,7 +3,7 @@ require 'open-uri'
 require 'json'
 
 class GetRequester
-  def get_response_body(url)
+  def initilize(url)
     URI.parse(URL)
   end
   
